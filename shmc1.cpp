@@ -18,15 +18,13 @@ using namespace std;
 
 CLASS *class_ptr;
 void *memptr;
-char	*pname;
-int	shmid, ret;
+char *pname;
+int shmid, ret;
 void rpterror(char *), srand(), perror(), sleep();
 void sell_seats();
 
 main(int argc, char* argv[])
-
 {
-
 	if (argc < 2) {
 		fprintf (stderr, "Usage:, %s shmid\n", argv[0]);
 		exit(1);
