@@ -19,9 +19,7 @@ CLASS myclass = { "1001", "120186", "Operating Systems", 15 };
 #define NCHILD	3
 
 int	shm_init( void * );
-
 void	wait_and_wrap_up( int [], void *, int );
-
 void	rpterror( char *, char * );
 
 main(int argc, char *argv[])
