@@ -11,7 +11,6 @@
 #include <stdio.h>
 #include <memory.h>
 
-
 using namespace std;
 
 CLASS myclass = { "1001", "120186", "Operating Systems", 15 }; // Class Number, Date, Title, Seats left
